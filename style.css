@@ -41,8 +41,7 @@ body h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.navbar-nav li a button {
+.navbar-nav li a button{
     margin-top: 5px;
 }
 
@@ -291,7 +290,6 @@ body h2 {
     align-items: center;
     flex-direction: column;
 }
-
 #contact {
     /* color: #F8DE22; */
     height: auto;
@@ -329,6 +327,13 @@ body h2 {
 
 
 @media (max-width:480px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     body h2 {
         margin: 5px 0px;
     }
@@ -427,7 +432,7 @@ body h2 {
 
     /* education */
     #education ul {
-        color: #F0F0F0;
+        color: #f0f0f0;
         margin-left: 20px;
     }
 
@@ -493,6 +498,4 @@ body h2 {
     #contact button {
         margin-top: 8px;
     }
-
-
 }
