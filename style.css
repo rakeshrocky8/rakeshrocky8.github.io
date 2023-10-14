@@ -432,10 +432,12 @@ body h2 {
 
     /* education */
     #education ul {
-        color: #f0f0f0;
         margin-left: 20px;
     }
 
+    #education ul {
+        padding-left: 10px;
+    }
 
     /* skills */
     #skills {
