@@ -48,7 +48,7 @@ body h2 {
 
 
 #Home {
-    background-color: #001524;
+    background-color: #191919;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -64,11 +64,10 @@ body h2 {
 }
 
 #Home img {
-    width: 280px;
-    height: 280px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: solid 5px #f8df20;
 }
 
 #Home h1 {
@@ -118,7 +117,7 @@ body h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #001524;
+    background: #191919;
     border-left: 2px solid #F8DE22;
     animation: typing 3s steps(10) infinite;
 }
@@ -217,8 +216,8 @@ body h2 {
 
 .flip-card {
     background-color: transparent;
-    width: 260px;
-    height: 380px;
+    width: 320px;
+    height: 430px;
     border-radius: 15px;
     perspective: 1000px;
 
